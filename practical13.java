@@ -51,7 +51,7 @@ import java.util.*;
             }
              
             double average_linear= average(linearTimes);
-            double std_linear=stdDev(linearTimes,average_linear);
+            double std_linear=stdDev(linearTimes,average_linear); //Averages and standard deviations
             double average_binary= average(binaryTimes);
             double  std_binary=stdDev(binaryTimes,average_binary);
             System.out.println(average_linear + " " + std_linear + " " + average_binary + " " + std_binary);
